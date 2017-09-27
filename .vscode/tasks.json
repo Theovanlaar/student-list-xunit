@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/student-list.csproj"
+                "${workspaceRoot}"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
