@@ -70,7 +70,7 @@ namespace dev275x.studentlist
             else if (args[0] == Constants.ShowCount)
             {
                 var students = studentList.Split(Constants.StudentEntryDelimiter);
-                Console.WriteLine(String.Format("{0} words found", students.Length));
+                Console.WriteLine(String.Format("{0} students found", students.Length));
             }
             else
             {
@@ -115,7 +115,7 @@ namespace dev275x.studentlist
 
         static void ShowUsage()
         {
-            Console.WriteLine($"Usage: dotnet dev275x.rollcall.dll (-a | -r | -c | +WORD | ?WORD)");
+            Console.WriteLine($"Usage: dotnet dev275x.rollcall.dll (-a | -r | -count | +WORD | ?WORD)");
         }
     }
 }
